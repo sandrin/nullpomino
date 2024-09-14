@@ -15,7 +15,7 @@ AppSupportURL=http://code.google.com/p/nullpomino/
 AppUpdatesURL=http://code.google.com/p/nullpomino/
 DefaultDirName={sd}\NullpoMino
 DefaultGroupName=NullpoMino
-OutputBaseFilename=Nullpomino_7.5
+OutputBaseFilename=Nullpomino_7.6
 Compression=lzma
 SolidCompression=yes
 ; DisableProgramGroupPage=yes
@@ -28,8 +28,7 @@ Name: "japanese"; MessagesFile: "compiler:Languages\Japanese.isl"
 Name: "extraicons"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
 
 [Files]
-; Source: "C:\Users\Wojtek\Tymczasowe\npm\NullpoMino.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Wojtek\Tymczasowe\npm\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Games\nullpoFixed\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
@@ -40,4 +39,3 @@ Name: "{commondesktop}\NullpoMino"; Filename: "{app}\NullpoMino.exe"; Tasks: ext
 
 [Run]
 Filename: "{app}\NullpoMino.exe"; Description: "{cm:LaunchProgram,NullpoMino}"; Flags: nowait postinstall skipifsilent
-
