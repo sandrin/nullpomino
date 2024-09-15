@@ -1,5 +1,9 @@
 patched slick.jar in /lib so that it doesn't crash on startup when more than 10 controllers are detected
 
+new installer for windows [here](https://github.com/sandrin/nullpomino/releases/download/release/Nullpomino_7.6.exe) (has patched library included)
+
+patched library standalone [here](https://github.com/sandrin/nullpomino/releases/download/release/slick.jar)
+
 ---------------------------------------------------------------------------------------------------------
 
 # Nullpomino
